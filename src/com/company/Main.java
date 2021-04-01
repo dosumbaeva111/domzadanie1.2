@@ -14,7 +14,7 @@ public class Main {
     public static String method(int age, int temperature) {
         String result = "";
         if (age > 20 && age < 45) {
-            if (temperature < -20 && temperature > 30) {
+            if (temperature > -20 && temperature > 30) {
 
                 result = "Можно идти гулять!";
             }
